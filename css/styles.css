@@ -179,8 +179,18 @@ header { position:relative; z-index: 9999; width:100%; background:#fff; padding:
 #section1 { display:block; height:100%; width:100%; }
 .post #section1 { height:80%; }
 /* fullscreen intro */
-.intro { height:100%; width:100%; background:url(../images/fullscreen-me.jpg) no-repeat center top; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; display:block; background-attachment:fixed; }
-.touch .intro { background:url(../images/fullscreen-me.jpg) center center no-repeat; background-attachment: scroll; }
+.intro { height:100%; width:100%; background:url(../images/fullscreen-me.jpg) no-repeat center top;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; display:block; background-attachment:fixed; }
+.touch .intro { background:url(../images/fullscreen-me.jpg) center center no-repeat; background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .blog #section3 { height:auto; width:100%; background:url(../images/references.jpg) no-repeat center center fixed; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; display:block; background-attachment:fixed; position:relative }
 .blog.touch #section3 { background:url(../images/references.jpg) center center no-repeat; background-attachment: scroll; }
