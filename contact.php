@@ -49,17 +49,17 @@ if(trim($name) == '') {
 
 
 
-$address = 'hello@email.com';
+$address = 'l.a.web@hotmail.com';
 
 
 
 $e_subject = 'You\'ve been contacted by ' . $name . '.';
 
-$e_body = "You have been contacted by $name from your contact form, their additional message is as follows." . "\r\n" . "\r\n";
+$e_body = "Estas siendo contactado por $name del formulario de contacto, le mostramos los mensajes añadidos." . "\r\n" . "\r\n";
 
 $e_content = "\"$comments\"" . "\r\n" . "\r\n";
 
-$e_reply = "You can contact $name via email, $email";
+$e_reply = "Puedes contactar a $name por el email, $email";
 
 
 
@@ -67,7 +67,7 @@ $msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
 
 
 
-$headers = "From: $email" . "\r\n";
+$headers = "De: $email" . "\r\n";
 
 $headers .= "Reply-To: $email" . "\r\n";
 

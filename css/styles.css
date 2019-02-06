@@ -348,6 +348,61 @@ img { box-shadow: #fff 0 0 0 }
 .zoom { background:url(../images/icons/bg-zoom.png) center no-repeat; background-size:48px 48px; }
 .tags { background:url(../images/icons/bg-tags.png) center no-repeat; background-size:48px 48px; }
 .quote { background:url(../images/icons/bg-quote.png) center no-repeat; background-size:48px 48px; }
+
+/* icons dev
+--------------------------------------------------------------------------------------------------------*/
+.c-sharp { background:url(../images/icons/dev/c-sharp.png) no-repeat center; background-size:48px 48px; }
+.java { background:url(../images/icons/dev/java.png) no-repeat center; background-size:48px 48px; }
+.electron { background:url(../images/icons/dev/electron.png) no-repeat center; background-size:48px 48px; }
+.c { background:url(../images/icons/dev/icons8-c-programming-480.png) no-repeat center; background-size:48px 48px; }
+.cplus { background:url(../images/icons/dev/icons8-c++-480.png) no-repeat center; background-size:48px 48px; }
+
+
+.android { background:url(../images/icons/dev/icons8-android-os-96.png) no-repeat center; background-size:48px 48px; }
+.xamarin { background:url(../images/icons/dev/icons8-xamarin-480.png) no-repeat center; background-size:48px 48px; }
+.html { background:url(../images/icons/dev/html.png) no-repeat center; background-size:48px 48px; }
+.css { background:url(../images/icons/dev/css3.png) no-repeat center; background-size:48px 48px; }
+.javascript { background:url(../images/icons/dev/icons8-javascript-480.png) no-repeat center; background-size:48px 48px; }
+.angular { background:url(../images/icons/dev/angular.png) no-repeat center; background-size:48px 48px; }
+.nodejs { background:url(../images/icons/dev/icons8-nodejs-480.png) no-repeat center; background-size:48px 48px; }
+.php { background:url(../images/icons/dev/icons8-php-designer-480.png) no-repeat center; background-size:48px 48px; }
+.wordpress { background:url(../images/icons/dev/icons8-wordpress-480.png) no-repeat center; background-size:48px 48px; }
+.drupal { background:url(../images/icons/dev/icons8-drupal-96.png) no-repeat center; background-size:48px 48px; }
+.asp { background:url(../images/icons/dev/asp.png) no-repeat center; background-size:48px 48px; }
+.rubi { background:url(../images/icons/dev/icons8-ruby-programming-language-96.png) no-repeat center; background-size:48px 48px; }
+.bootstrap { background:url(../images/icons/dev/bootstrap.png) no-repeat center; background-size:48px 48px; }
+
+.sql { background:url(../images/icons/dev/icons8-sql-480.png) no-repeat center; background-size:48px 48px; }
+.mysql { background:url(../images/icons/dev/icons8-mysql-96.png) no-repeat center; background-size:48px 48px; }
+.oracle { background:url(../images/icons/dev/icons8-oracle-logo-480.png) no-repeat center; background-size:48px 48px; }
+.mongodb { background:url(../images/icons/dev/icons8-mongodb-480.png) no-repeat center; background-size:48px 48px; }
+.postgress { background:url(../images/icons/dev/icons8-postgresql-480.png) no-repeat center; background-size:48px 48px; }
+.firebase { background:url(../images/icons/dev/icons8-firebase-96.png) no-repeat center; background-size:48px 48px; }
+
+.photoshop { background:url(../images/icons/dev/icons8-adobe-photoshop-480.png) no-repeat center; background-size:48px 48px; }
+.illustrator { background:url(../images/icons/dev/icons8-adobe-illustrator-480.png) no-repeat center; background-size:48px 48px; }
+.indesign { background:url(../images/icons/dev/icons8-adobe-indesign-480.png) no-repeat center; background-size:48px 48px; }
+.aftereffects { background:url(../images/icons/dev/icons8-adobe-after-effects-480.png) no-repeat center; background-size:48px 48px; }
+.inkscape { background:url(../images/icons/dev/icons8-inkscape-480.png) no-repeat center; background-size:48px 48px; }
+.blender { background:url(../images/icons/dev/icons8-blender-3d-480.png) no-repeat center; background-size:48px 48px; }
+.ds { background:url(../images/icons/dev/icons8-3ds-max-96.png) no-repeat center; background-size:48px 48px; }
+.camtasia { background:url(../images/icons/dev/icons8-camtasia-studio-96.png) no-repeat center; background-size:48px 48px; }
+.maya { background:url(../images/icons/dev/icons8-autodesk-maya-96.png) no-repeat center; background-size:48px 48px; }
+
+.windows { background:url(../images/icons/dev/icons8-windows8-96.png) no-repeat center; background-size:48px 48px; }
+.linux { background:url(../images/icons/dev/icons8-linux-server-96.png) no-repeat center; background-size:48px 48px; }
+.mac { background:url(../images/icons/dev/icons8-mac-client-96.png) no-repeat center; background-size:48px 48px; }
+.servidores { background:url(../images/icons/dev/icons8-server-480.png) no-repeat center; background-size:48px 48px; }
+.redes { background:url(../images/icons/dev/icons8-network-96.png) no-repeat center; background-size:48px 48px; }
+.raspberry { background:url(../images/icons/dev/icons8-raspberry-pi-480.png) no-repeat center; background-size:48px 48px; }
+.arduino { background:url(../images/icons/dev/icons8-arduino-480.png) no-repeat center; background-size:48px 48px; }
+
+.unity { background:url(../images/icons/dev/icons8-unity-5-480.png) no-repeat center; background-size:48px 48px; }
+.unreal { background:url(../images/icons/dev/icons8-unreal-engine-480.png) no-repeat center; background-size:48px 48px; }
+.gamemaker { background:url(../images/icons/dev/icons8-game-maker-96.png) no-repeat center; background-size:48px 48px; }
+
+.spanish { background:url(../images/icons/dev/icons8-mexico-96.png) no-repeat center; background-size:48px 48px; }
+.ingles { background:url(../images/icons/dev/icons8-usa-96.png) no-repeat center; background-size:48px 48px; }
 /* End Icons
 --------------------------------------------------------------------------------------------------------*/
 
