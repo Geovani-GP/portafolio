@@ -253,8 +253,8 @@ section.grey .accordion { border-top:0 }
 section.grey .tab { margin-bottom:20px; }
 .time-range { width:260px; float:left; margin-right:20px; font-size:21px; font-weight:600; padding:40px; padding-right:0px; padding-top:45px; letter-spacing:-1px; text-transform:uppercase; height:100%; }
 .time-range span { font-size:13px; font-weight:400; padding-right:6px; letter-spacing:0; }
-.employer { width:660px; padding:14px 60px 7px 40px; border-left:1px dotted #c0c0c0; margin:25px 0; float:left }
-.employer h4 { margin-bottom:8px; margin-top:0px; font-size:28px; text-transform:none; letter-spacing:0; font-weight:600 }
+.employer { width:660px; padding:14px 60px 7px 40px; border-left:1px dotted #c0c0c0; margin:25px 0; float:left}
+.employer h4 { margin-bottom:8px; margin-top:0px; font-size:22px; text-transform:none; letter-spacing:0; font-weight:600 }
 .employer h5 small { font-size:13px; font-weight:400; font-family: "Open Sans", Arial, Helvetica, sans-serif; }
 /* =End Column Grid
 --------------------------------------------------------------------------------------------------------*/
@@ -405,7 +405,20 @@ img { box-shadow: #fff 0 0 0 }
 .ingles { background:url(../images/icons/dev/icons8-usa-96.png) no-repeat center; background-size:48px 48px; }
 /* End Icons
 --------------------------------------------------------------------------------------------------------*/
+/* Logos
+--------------------------------------------------------------------------------------------------------*/
+.alba { background:url(../images/logos/alba.png) no-repeat center; background-size:64px 64px; }
+.benito { background:url(../images/logos/benito.png) no-repeat center; background-size:64px 64px; }
+.cobao { background:url(../images/logos/cobao.png) no-repeat center; background-size:64px 64px; }
+.farmaciajesus { background:url(../images/logos/farmaciajesus.png) no-repeat center; background-size:64px 64px; }
+.ineed { background:url(../images/logos/ineed.png) no-repeat center; background-size:64px 64px; }
+.laweb { background:url(../images/logos/laweb.jpg) no-repeat center; background-size:64px 64px; }
+.itsao { background:url(../images/logos/itsao.png) no-repeat center; background-size:64px 64px; }
+.mathspace { background:url(../images/logos/mathspace.png) no-repeat center; background-size:64px 64px; }
+.og { background:url(../images/logos/og.png) no-repeat center; background-size:64px 64px; }
 
+/* End Logos
+--------------------------------------------------------------------------------------------------------*/
 
 /* =11. Galleries
 --------------------------------------------------------------------------------------------------------*/
@@ -471,6 +484,7 @@ img { box-shadow: #fff 0 0 0 }
 .service_box { display: block; text-align: center; margin-top: 14px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); z-index:55; position:relative }
 .service_item { display: inline-block; padding: 12px 22px; position: relative; cursor:help; text-align: center ; min-width: 152px; margin-bottom: 16px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 .icon_box { display: inline-block; height: 48px; width: 48px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+.logo_box { display: inline-block; height: 64px; width: 64px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin-right: 25px }
 .service_name { padding: 0; margin: 13px 0 0 0; }
 .service_details:before { background:none repeat scroll 0 0 rgba(212, 212, 212, 1); bottom:-8px; content:""; height:14px; left:50%; position:absolute; -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg); width:14px; margin-left:-7px; }
 .service_details:after { background:#fff; bottom:-6px; content:""; height:16px; left:50%; position:absolute; -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg); width:16px; margin-left:-8px; }
