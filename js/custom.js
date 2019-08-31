@@ -23,7 +23,7 @@ $( document ).ready(function() {
 	});
 
 		
-	$(".service_item").hover(function(){
+	$(".service_item").scrollTop(function(){
 		$(this).children('.pie_progress').asPieProgress('start');
 	});
 
