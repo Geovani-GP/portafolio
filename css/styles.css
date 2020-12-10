@@ -580,6 +580,12 @@ ul.unordered-list li a:hover, ol li a:hover { border-bottom:1px solid #e44b43; -
 
 /*= Button CV
 -------------------------------------------------------------- */
+
+.github {
+    right: 0px;
+    position: fixed;
+}
+ 
 a {
     color: #fff;
     text-decoration: none;
