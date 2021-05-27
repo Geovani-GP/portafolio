@@ -499,6 +499,7 @@ ol.service_details > li { list-style:decimal; }
 .pie_progress__number { font-size: 15px; top: -17px; }
 .service_box { display: block; text-align: center; margin-top: 30px; }
 .ancor-skills { position: absolute; top: -500px; }
+#count{color:white; font-weight:bold; margin:15px}
 /* =End Services
 --------------------------------------------------------------------------------------------------------*/
 
