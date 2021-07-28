@@ -156,6 +156,44 @@ function changeLanguaje(lang){
   document.getElementById('opt2_title').innerHTML=op2[setlang];
   document.getElementById('opt2_body').innerHTML=opt2_body[setlang];
 
+  document.getElementById('data1').innerHTML=data1[setlang];
+document.getElementById('data2').innerHTML=data2[setlang];
+document.getElementById('data3').innerHTML=data3[setlang];
+document.getElementById('data4').innerHTML=data4[setlang];
+document.getElementById('data5').innerHTML=data5[setlang];
+
+document.getElementById('perf1').innerHTML=perf1[setlang];
+document.getElementById('perf2').innerHTML=perf2[setlang];
+document.getElementById('perf3').innerHTML=perf3[setlang];
+document.getElementById('perf4').innerHTML=perf4[setlang];
+document.getElementById('perf5').innerHTML=perf5[setlang];
+document.getElementById('perf6').innerHTML=perf6[setlang];
+document.getElementById('perf7').innerHTML=perf7[setlang];
+document.getElementById('perf8').innerHTML=perf8[setlang];
+
+document.getElementById('exp1').innerHTML=exp1[setlang];
+document.getElementById('exp2').innerHTML=exp2[setlang];
+document.getElementById('exp3').innerHTML=exp3[setlang];
+document.getElementById('exp4').innerHTML=exp4[setlang];
+document.getElementById('exp5').innerHTML=exp5[setlang];
+document.getElementById('exp6').innerHTML=exp6[setlang];
+document.getElementById('exp7').innerHTML=exp7[setlang];
+document.getElementById('exp8').innerHTML=exp8[setlang];
+document.getElementById('exp9').innerHTML=exp9[setlang];
+document.getElementById('exp10').innerHTML=exp10[setlang];
+document.getElementById('exp11').innerHTML=exp11[setlang];
+document.getElementById('exp12').innerHTML=exp12[setlang];
+document.getElementById('exp13').innerHTML=exp13[setlang];
+document.getElementById('exp14').innerHTML=exp14[setlang];
+document.getElementById('exp15').innerHTML=exp15[setlang];
+document.getElementById('exp16').innerHTML=exp16[setlang];
+document.getElementById('exp17').innerHTML=exp17[setlang];
+document.getElementById('exp18').innerHTML=exp18[setlang];
+
+document.getElementById('quo1').innerHTML=quo1[setlang];
+document.getElementById('quo2').innerHTML=quo2[setlang];
+document.getElementById('quo3').innerHTML=quo3[setlang];
+
 
   if(lang==0){
     document.getElementsByClassName('en')[0].setAttribute('style', 'opacity:0.5;transition:1s');
