@@ -80,6 +80,7 @@ to manipulate information, manage effective planning
 that makes you competent to do your own jobs.&quot;`];
 
 
+
 //selector html
 document.getElementById('load').innerHTML=load[setlang];
 document.getElementById('specialty').innerHTML=spec[setlang];
