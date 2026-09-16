@@ -422,8 +422,21 @@ img { box-shadow: #fff 0 0 0 }
 .og { background:url(../images/logos/og.png) no-repeat center; background-size:64px 64px; }
 .itisa { background:url(../images/logos/Itisa.jpg) no-repeat center; background-size:64px 64px; }
 .dti { background:url(../images/logos/DTI.jpg) no-repeat center; background-size:64px 64px; }
+.bid { background:url(../images/logos/BID.png) no-repeat center; background-size:64px 64px; }
+.nni { background:url(../images/logos/NNI.png) no-repeat center; background-size:64px 64px; }
+.sofisoft { background:url(../images/logos/sofisoft.jpeg) no-repeat center; background-size:64px 64px; }
+/* Preserve the native proportions of timeline logos. */
+.logo_box { background-position: center; background-repeat: no-repeat; background-size: contain; height: 64px; width: 72px; margin-right: 17px; }
+.logo_box.sofisoft, .logo_box.bid { background-size: 76px auto; width: 80px; margin-right: 9px; }
+.logo_box.nni { background-size: 58px auto; }
+.logo_box.dti, .logo_box.alba { background-size: 54px auto; }
+.logo_box.oracle { background-size: 50px auto; }
 /* End Logos
 --------------------------------------------------------------------------------------------------------*/
+
+/* Readable responsibilities inside the expanded experience cards. */
+#section3 .hidden-content ul { list-style: disc; margin: 12px 0 0 20px; }
+#section3 .hidden-content li { line-height: 1.65; margin-bottom: 7px; padding-left: 3px; }
 
 /* =11. Galleries
 --------------------------------------------------------------------------------------------------------*/

@@ -44,3 +44,17 @@ textarea, select, input:not([type="radio"]):not([type="checkbox"]):not([type="hi
   font: 15px "Open Sans",Arial,Helvetica,sans-serif;
   padding: 14px 20px 15px 20px;
 }
+/* Professional contact panel */
+.contact-heading { max-width: 820px; margin: 0 auto 14px; }
+.contact-kicker { color: #e44b43; font-size: 12px; font-weight: 700; letter-spacing: 1.8px; margin-bottom: 11px; text-transform: uppercase; }
+.contact-cards { display: grid; gap: 14px; margin: 0 auto; max-width: 820px; }
+.contact-card { align-items: center; background: #fff; border: 1px solid #ececec; box-shadow: 0 8px 24px rgba(0, 0, 0, .055); color: #555; display: flex; gap: 18px; min-height: 94px; padding: 18px 22px; text-decoration: none; transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease; }
+.contact-card:hover, .contact-card:focus { border-color: #e44b43; box-shadow: 0 12px 28px rgba(228, 75, 67, .15); color: #555; transform: translateY(-2px); }
+.contact-card-icon { align-items: center; background: #fdf1f0; border-radius: 50%; color: #e44b43; display: inline-flex; flex: 0 0 46px; font-family: "fontello"; font-size: 20px; height: 46px; justify-content: center; width: 46px; }
+.contact-card-icon:before { margin: 0; }
+.contact-card-whatsapp { font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size: 17px; font-weight: 700; }
+.contact-card-content { display: flex; flex: 1; flex-direction: column; min-width: 0; }
+.contact-card-content strong { color: #333; font-family: "Dosis", "Open Sans", Arial, Helvetica, sans-serif; font-size: 18px; letter-spacing: .7px; }
+.contact-card-content span { font-size: 14px; overflow-wrap: anywhere; }
+.contact-card-action { color: #e44b43; font-size: 12px; font-weight: 700; letter-spacing: .8px; text-transform: uppercase; white-space: nowrap; }
+@media only screen and (max-width: 540px) { .contact-card { align-items: flex-start; flex-wrap: wrap; gap: 12px; padding: 17px; } .contact-card-action { margin-left: 58px; } }

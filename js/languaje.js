@@ -8,8 +8,8 @@ document.getElementsByClassName('en')[0].setAttribute('style', ' opacity:1; tran
 
 // vars text
 var load = ["Cargando","Loading"];
-var spec = ["Ingeniero de Software","Software Enginner"];
-var prof = ["Ingeniero Informático","Computer Enginner"];
+var spec = ["Ingeniero Senior de Software de Plataforma","Senior Platform Software Engineer"];
+var prof = ["Integración empresarial y soporte de producción","Enterprise Integration & Production Support"];
 
 var op1 = ["Principal","Home"];
 var op2 = ["Objetivos","Objectives"];
@@ -20,42 +20,60 @@ var op6 = ["Habilidades","Skills"];
 var op7 = ["Trabajos","Jobs"];
 var op8 = ["Contacto","Contact"];
 
-var opt2_body = ["Superarme de manera profesional ya sea escolarizado o autodidacta en el campo de la informática y de la tecnología de información (TI), de esa manera lograr las metas en el lugar de trabajo que me encuentre desempeñando, asi como adquirir experiencia y poder aportar mis conocimientos en los diferentes ámbitos de la vida laboral.",
-                 "To improve myself in a professional way, whether schooled or self-taught in the field of computer science and information technology (IT), in this way to achieve the goals in the workplace that I find myself performing, as well as to acquire experience and be able to contribute my knowledge in the different areas of working life"];
+var opt2_body = ["Ingeniero Senior de Software de Plataforma con más de 8 años de experiencia en integraciones empresariales, soporte de producción, tecnologías cloud y desarrollo full-stack. Mi experiencia más reciente fue en Oracle Customer Success Services (CSS), apoyando a clientes empresariales en plataformas de integración y entornos críticos.","Senior Platform Software Engineer with 8+ years of experience in enterprise integrations, production support, cloud technologies, and full-stack development. My most recent role was with Oracle Customer Success Services (CSS), supporting enterprise customers across integration platforms and critical environments."];
 
-var data1=["Mis Habilidades", "My Abilities"];
-var data2=["¿Cuales son?","Which are?"];
-var data3=["Mis Redes Sociales","My social networks"];
+var data1=["Especialidades técnicas", "Technical expertise"];
+var data2=["Integración, cloud y desarrollo", "Integration, cloud & development"];
+var data3=["Red profesional", "Professional network"];
 var data4=["Contacta conmigo","Contact me"]
-var data5=["Soy de Huajuapan","I'm from Huajuapan"];
+var data5=["Ciudad de México, México", "Mexico City, Mexico"];
 
-var perf1=["Mi Perfil","My profile"];
-var perf2=["Nombre: Geovani Gómez Pérez","Name: Geovani Gómez Pérez"];
-var perf3=["Fecha de Nacimiento: 6 Febrero de 1986","Date of Birth: 6 Febrero de 1986"];
-var perf4=["Nacionalidad: Mexicana","Mexican nationality"];
-var perf5=["E-mail: l.a.web@hotmail.com","E-mail: l.a.web@hotmail.com"];
-var perf6=["Telefóno: (953) 10 90 222","Phone: (953) 10 90 222"];
-var perf7=["¿Quien soy?","Who I am?"];
-var perf8=["Soy una persona alegre, amigable, y responsable, la cual busca superarse profesionalmente, para ofrecer un mejor estado de vida a mi familia, me siento comprometido con las tareas que me encomiendan, soy una persona en la que se puede confiar y contar además de que siempre estoy estudiando y esforzándome para sobrellevar los retos que me ofrezcan, soy una persona con gusto en las ciencias de cálculo, autodidacta, y siempre estoy buscando la manera de ampliar mis habilidades para ofrecerlas en donde tenga oportunidad de practicarlas.","I am a happy, friendly, and responsible person, who seeks to improve professionally, to offer a better state of life to my family, I feel committed to the tasks entrusted to me, I am a person who can be trusted and counted on in addition to that I am always studying and striving to overcome the challenges that they offer me, I am a person with taste in calculus sciences, self-taught, and I am always looking for a way to expand my skills to offer them where I have the opportunity to practice them."];
+var contactTitle=["Hablemos","Let's connect"];
+var contactIntro=["Estoy disponible para conversar sobre oportunidades profesionales, proyectos de integración empresarial y desarrollo de software.","I'm available to discuss professional opportunities, enterprise integration projects, and software development."];
+var contactAvailability=["Disponible para oportunidades profesionales y colaboraciones.","Available for professional opportunities and collaborations."];
+var contactEmail=["Correo electrónico","Email"];
+var contactWhatsapp=["WhatsApp","WhatsApp"];
+var contactLinkedIn=["LinkedIn","LinkedIn"];
+var contactEmailAction=["Enviar correo","Send email"];
+var contactWhatsappAction=["Enviar mensaje","Send message"];
+var contactLinkedInAction=["Ver perfil","View profile"];
+var skillsTitle=["Habilidades","Skills"];
+var skillsSummaryTitle=["Competencias principales","Core competencies"];
+var skillsSummaryBody=["Oracle Integration Cloud (OIC) · Managed File Transfer (MFT) · Oracle Data Integrator (ODI) · ERP · OSB · PL/SQL · BI Publisher · WebLogic · APIs · Middleware · OCI · Azure · AWS · DevOps · CI/CD · Angular · Ionic · TypeScript · Firebase · Mitek · Veridas · OCR","Oracle Integration Cloud (OIC) · Managed File Transfer (MFT) · Oracle Data Integrator (ODI) · ERP · OSB · PL/SQL · BI Publisher · WebLogic · APIs · Middleware · OCI · Azure · AWS · DevOps · CI/CD · Angular · Ionic · TypeScript · Firebase · Mitek · Veridas · OCR"];
+
+var perf1=["Perfil profesional","Professional profile"];
+var perf2=["Ubicación: Ciudad de México, México","Location: Mexico City, Mexico"];
+var perf3=["Experiencia más reciente: Oracle CSS","Most recent role: Oracle CSS"];
+var perf4=["Modalidad: Remoto","Work arrangement: Remote"];
+var perf5=["Correo: laweb.com","Email: laweb.com"];
+var perf6=["Teléfono: +52 953 109 0222","Phone: +52 953 109 0222"];
+var perf7=["Resumen","Summary"];
+var perf8=["Especialista en Oracle Integration Cloud, MFT, ODI, ERP, PL/SQL, WebLogic, OSB, APIs y middleware. Complemento esta experiencia con Angular, Ionic, TypeScript, Firebase, Azure, AWS y Oracle Cloud Infrastructure para analizar incidencias de extremo a extremo y entregar soluciones confiables.","Specialist in Oracle Integration Cloud, MFT, ODI, ERP, PL/SQL, WebLogic, OSB, APIs, and middleware. I complement this expertise with Angular, Ionic, TypeScript, Firebase, Azure, AWS, and Oracle Cloud Infrastructure to analyze end-to-end incidents and deliver reliable solutions."];
 
 var exp1=["Experiencia","Experience"];
-var exp2=["Desarrollador de Aplicaciones, Web, Móvil, de escritorio, planificador de tareas utilizando metodologías de desarrollo tanto completas como agiles, con experiencia en el desarrollo y planificación de software.","Developer of Applications, Web, Mobile, desktop, task planner using both complete and agile development methodologies, with experience in software development and planning."];
-var exp3=[`2020 <span id="exp3">/ Agosto</span> - Actual`,`2020 <span id="exp3">/ August</span> - Current`];
-var exp4=["Desarrollador Web/Movil/Consultor","Web / Mobile Developer / Consultant"];
-var exp5=["Empresa en donde desepempeñe como desarrollador Web, Movil, usando tecnologias como : Angular, Ionic, Vue, Unity, Además de ser consultor Oracle ODI (Oracle Data Integration)","Company where I work as a Web, Mobile developer, using technologies such as: Angular, Ionic, Vue, Unity, in addition to being an Oracle ODI (Oracle Data Integration) consultant"];
-var exp6=[`2019 <span>/ Junio</span> - 2019 <span>/ Sep</span>`,`2019 <span>/ June</span> - 2019 <span>/ Sep</span>`];
-var exp7=["Desarrollador","Developer"];
-var exp8=["Empresa donde trabaje para la finalizacion de proyecto desarrollado en WPF, tambien como Analista de datos usando ETL de Microsoft SSIS.","Company where I worked for the completion of the project developed in WPF, also as a Data Analyst using Microsoft SSIS ETL."];
-var exp9=[`2018 <span>/ Mayo</span> - 2019 <span>/ Julio</span>`,`2018 <span>/ May</span> - 2019 <span>/ July</span>`];
-var exp10=["Desarrollador Web","Web Developer"];
-var exp11=["Empresa donde trabaje como desarrollador web, en la cual controlaba las tareas o sprints de desarrollo usando diversas metodologías agiles para poder ofrecer soluciones tecnológicas que el cliente solicita. Utilizando herramientas y diversas tecnologías de desarrollo que se utilizan actualmente.","Company where I worked as a web developer, in which I controlled development tasks or sprints using various agile methodologies to be able to offer technological solutions that the client requests. Using tools and various development technologies that are currently used."];
-var exp12=["Independientemente al desarrollo, también trabaje como diseñador e Instructor.","Regardless of development, I also worked as a designer and Instructor."];
-var exp13=[`2017 <span>/ Agosto</span> - 2018 <span>/ Julio</span>`,`2017 <span>/ August</span> - 2019 <span>/ July</span>`];
-var exp14=["Desarrollador","Developer"];
-var exp15=["Trabaje con múltiples proyectos, tanto web, móviles y de escritorio para diferentes instituciones, y empresas privadas, de manera paralela a los estudios de Ingeniería.","Work with multiple projects, both web, mobile and desktop for different institutions and private companies, in parallel with Engineering studies."];
-var exp16=[`2008 <span>/ Marzo</span> - 2017 <span>/ Julio</span>`,`2008 <span>/ March</span> - 2017 <span>/ Sep</span>`];
-var exp17=[`Administrador <small>(5 años)</small><br />Soporte y Atención <small>(4 años)</small>`,`Administrator <small>(5 years)</small><br />Support and Attention <small>(4 years)</small>`];
-var exp18=["Empresa en donde desempeñe múltiples funciones técnicas de reparación de computadoras y soporte técnico a diferentes  dispositivos electrónicos, además de ser instructor de computación a clientes de diferentes edades, también organice y lleve el control administrativo del negocio, me brindaron la oportunidad de aprender otros temas relacionados con la edición de video, audio asi como de brindarme cursos de diseño grafico en las cuales pude aprender y praaacticar el tratamiento de imágenes y creación de logotipos. ","Company where I perform multiple technical functions of computer repair and technical support to different electronic devices, in addition to being a computer instructor to clients of different ages, I also organize and take administrative control of the business, they gave me the opportunity to learn other related topics with video and audio editing as well as giving me graphic design courses in which I could learn and practice the treatment of images and creation of logos."];
+var exp2=["Trayectoria profesional en integración empresarial, soporte de producción, cloud, DevOps y desarrollo full-stack.","Professional experience across enterprise integration, production support, cloud, DevOps, and full-stack development."];
+var expOracleDate=[`2025 <span>/ Noviembre</span> - 2026 <span>/ Septiembre</span>`,`2025 <span>/ November</span> - 2026 <span>/ September</span>`];
+var expOracleTitle=["Ingeniero Senior de Software de Plataforma","Senior Platform Software Engineer"];
+var expOracleDescription=[`<ul><li>Brindé soporte a clientes empresariales en OIC, MFT, ODI, OSB, ERP, PL/SQL, WebLogic, APIs y middleware en entornos productivos.</li><li>Investigué incidentes en interfaz, API, middleware, base de datos, transferencia de archivos e integración; realizo análisis de causa raíz y apoyo la implementación de correcciones permanentes.</li><li>Apoyé la estabilidad de producción, actividades de go-live, resolución de incidentes y ejecución controlada de cambios mediante RFC/CAB.</li><li>Colaboré con equipos técnicos y funcionales para diagnosticar fallas, validar flujos de datos y reducir el impacto operativo.</li><li>Contribuí a la renovación regional de wallets ATP: revisión de vencimientos, seguimiento en Confluence, creación de RFCs, coordinación de aprobaciones y ejecución multirregional.</li><li>Apoyé el inventario de schedulers OIC y la transición de integraciones configuradas con cuentas personales a cuentas de sistema.</li><li>Participé en el onboarding de dos compañeros de Brasil: accesos, conectividad, seguimiento de RFCs y preparación de planes de acción.</li><li>Prototipé mejoras internas de productividad para estandarizar actividades recurrentes de soporte y seguimiento de RFCs.</li></ul>`,`<ul><li>Supported enterprise customers across OIC, MFT, ODI, OSB, ERP, PL/SQL, WebLogic, APIs, and middleware in production environments.</li><li>Troubleshot incidents across UI, API, middleware, database, file-transfer, and integration layers; perform root-cause analysis and support permanent fixes.</li><li>Supported production stability, go-live activities, incident resolution, and controlled change execution through RFC/CAB processes.</li><li>Collaborated with technical and functional teams to diagnose failures, validate data flows, and reduce operational impact.</li><li>Contributed to a regional ATP wallet renewal initiative, including expiration review, Confluence tracking, RFC creation, approval coordination, and multi-region execution.</li><li>Supported the OIC scheduler inventory and the transition from personal accounts to system users for scheduled integrations.</li><li>Onboarded two teammates from Brazil on access, connectivity, RFC tracking, and action-plan preparation.</li><li>Prototyped internal productivity improvements to standardize recurring support activities and RFC follow-up.</li></ul>`];
+var exp3=[`2025 <span id="exp3">/ Julio</span> - 2025 <span>/ Octubre</span>`,`2025 <span id="exp3">/ July</span> - 2025 <span>/ October</span>`];
+var exp4=["Desarrollador Cloud DevOps","Cloud DevOps Developer"];
+var exp5=[`<ul><li>Apoyé infraestructura cloud, procesos de despliegue y confiabilidad operativa de servicios en Azure y AWS.</li><li>Participé en despliegues, monitoreo, resolución de incidencias y soporte operativo para servicios cloud.</li><li>Colaboré con equipos de desarrollo y operaciones para mejorar la confiabilidad de releases y la resolución de problemas.</li><li>Apliqué prácticas de automatización y operaciones cloud en procesos tecnológicos críticos.</li></ul>`,`<ul><li>Supported cloud infrastructure, deployment processes, and operational reliability across Azure and AWS environments.</li><li>Worked on deployment, monitoring, incident resolution, and operational support for cloud-based services.</li><li>Collaborated with development and operations teams to improve release reliability and issue resolution.</li><li>Applied automation and cloud-operations practices to support business-critical technology processes.</li></ul>`];
+var exp6=[`2022 <span>/ Junio</span> - 2025 <span>/ Abril</span>`,`2022 <span>/ June</span> - 2025 <span>/ April</span>`];
+var exp7=["Ingeniero Tecnológico Senior","Senior Technological Engineer"];
+var exp8=[`<ul><li>Lideré el desarrollo de más de cinco aplicaciones móviles para validación de identidad con Angular, Ionic y TypeScript.</li><li>Integré SDKs biométricos Mitek y Veridas, aumentando la precisión de captura de 90% a 98%.</li><li>Optimicé flujos OCR con lazy loading y caché, reduciendo el tiempo de respuesta aproximadamente 35%.</li><li>Implementé módulos Angular reutilizables que aceleraron el desarrollo de proyectos paralelos.</li><li>Diseñé interfaces con animaciones SVG/CSS y colaboré con backend en APIs REST para procesamiento seguro de datos.</li></ul>`,`<ul><li>Led the development of 5+ mobile identity-validation applications using Angular, Ionic, and TypeScript.</li><li>Integrated Mitek and Veridas biometric SDKs, improving capture accuracy from 90% to 98%.</li><li>Optimized OCR workflows with lazy loading and caching, reducing response time by approximately 35%.</li><li>Implemented reusable Angular modules that accelerated development across parallel projects.</li><li>Designed interfaces with SVG/CSS animations and collaborated on REST APIs for secure data processing.</li></ul>`];
+var exp9=[`2021 <span>/ Mayo</span> - 2025 <span>/ Febrero</span>`,`2021 <span>/ May</span> - 2025 <span>/ February</span>`];
+var exp10=["Consultor Oracle Senior y Desarrollador Full Stack","Senior Oracle Consultant & Full Stack Developer"];
+var exp11=[`<ul><li>Brindé consultoría Oracle y soporte de producción para clientes empresariales en Estados Unidos, Canadá y México.</li><li>Trabajé con ERP, OSB, OIC, ODI, MFT, PL/SQL, BI Publisher y middleware en flujos de integración de extremo a extremo.</li><li>Resolví incidentes N1–N3 bajo SLA para reducir indisponibilidad y mejorar la continuidad operativa.</li><li>Configuré procesos MFT seguros entre sistemas críticos y desarrollé flujos OSB/OIC para procesos de negocio.</li><li>Actualicé lógica PL/SQL, modelos de datos ERP y reportes BI Publisher; apoyé migración, transformación y validación de datos con ODI.</li><li>Participé en procesos CAB, cambios controlados e implementación en producción.</li><li>En un programa regional de bienes de consumo, trabajé durante 36 meses como consultor Oracle PL/SQL, ERP, OSB, OIC y ODI para las regiones R1/R2 de Canadá y Estados Unidos.</li><li>En un proyecto de retail, participé ocho meses como consultor Oracle Java y ODI.</li></ul>`,`<ul><li>Provided Oracle consulting and production support for enterprise customers across the United States, Canada, and Mexico.</li><li>Worked with ERP, OSB, OIC, ODI, MFT, PL/SQL, BI Publisher, and middleware in end-to-end integration flows.</li><li>Resolved N1–N3 incidents under SLA-driven processes to reduce downtime and improve operational continuity.</li><li>Configured secure MFT processes between critical systems and developed OSB/OIC flows for business processes.</li><li>Updated PL/SQL logic, ERP data models, and BI Publisher reports; supported ODI data migration, transformation, and validation.</li><li>Participated in CAB processes, controlled changes, and production implementation.</li><li>Worked for 36 months on a regional consumer-goods program as an Oracle PL/SQL, ERP, OSB, OIC, and ODI consultant for the Canada and US R1/R2 regions.</li><li>Contributed for eight months to a retail project as an Oracle Java and ODI consultant.</li></ul>`];
+var exp12=["También contribuí a iniciativas web y móviles con Angular, Ionic, Vue y Unity.","Also contributed to web and mobile initiatives using Angular, Ionic, Vue, and Unity."];
+var exp13=[`2024 - 2025`,`2024 - 2025`];
+var exp14=["Desarrollador Full Stack (Ionic/Angular/Firebase)","Full Stack Developer (Ionic/Angular/Firebase)"];
+var exp15=[`<ul><li>Desarrollé Easymeet, una plataforma B2B/B2C de gestión de eventos con Ionic, Angular, Firebase, Stripe y Capacitor.</li><li>Lideré la migración de Flutter a Ionic/Angular para mejorar la velocidad de desarrollo y la compatibilidad multiplataforma.</li><li>Implementé panel administrativo, autenticación social, pagos, suscripciones y arquitectura Firebase.</li></ul>`,`<ul><li>Developed Easymeet, a B2B/B2C event-management platform built with Ionic, Angular, Firebase, Stripe, and Capacitor.</li><li>Led its migration from Flutter to Ionic/Angular to improve development speed and cross-platform compatibility.</li><li>Implemented an administrative panel, social authentication, payments, subscriptions, and Firebase architecture.</li></ul>`];
+var exp16=[`2018 <span>/ Junio</span> - 2020 <span>/ Septiembre</span>`,`2018 <span>/ June</span> - 2020 <span>/ September</span>`];
+var exp17=["Desarrollador Web","Web Developer"];
+var exp18=[`<ul><li>Desarrollé aplicaciones Android nativas, soluciones Unity y herramientas internas.</li><li>Creé recursos gráficos de apoyo y colaboré bajo flujos de trabajo Scrumban.</li></ul>`,`<ul><li>Developed native Android applications, Unity solutions, and internal tools.</li><li>Created supporting graphic assets and worked under Scrumban delivery workflows.</li></ul>`];
+var expDtiFullDate=[`2020 <span>/ Septiembre</span> - 2021 <span>/ Mayo</span>`,`2020 <span>/ September</span> - 2021 <span>/ May</span>`];
+var expDtiFullTitle=["Desarrollador Full Stack","Full Stack Developer"];
+var expDtiFullDescription=[`<ul><li>Desarrollé aplicaciones web y móviles con Angular, Ionic, Vue y JavaScript.</li><li>Trabajé con Unity, C#, PHP, MySQL, Oracle Database, HTML, CSS, Sass, SCSS y LESS.</li></ul>`,`<ul><li>Developed web and mobile applications using Angular, Ionic, Vue, and JavaScript.</li><li>Worked with Unity, C#, PHP, MySQL, Oracle Database, HTML, CSS, Sass, SCSS, and LESS.</li></ul>`];
 
 var quo1=[`&quot;Con un amplio criterio de responsabilidad, desempeño un
 excelente trabajo para nuestro negocio, creando una página web
@@ -104,6 +122,18 @@ document.getElementById('data2').innerHTML=data2[setlang];
 document.getElementById('data3').innerHTML=data3[setlang];
 document.getElementById('data4').innerHTML=data4[setlang];
 document.getElementById('data5').innerHTML=data5[setlang];
+document.getElementById('contactTitle').innerHTML=contactTitle[setlang];
+document.getElementById('contactIntro').innerHTML=contactIntro[setlang];
+document.getElementById('contactAvailability').innerHTML=contactAvailability[setlang];
+document.getElementById('contactEmail').innerHTML=contactEmail[setlang];
+document.getElementById('contactWhatsapp').innerHTML=contactWhatsapp[setlang];
+document.getElementById('contactLinkedIn').innerHTML=contactLinkedIn[setlang];
+document.getElementById('contactEmailAction').innerHTML=contactEmailAction[setlang];
+document.getElementById('contactWhatsappAction').innerHTML=contactWhatsappAction[setlang];
+document.getElementById('contactLinkedInAction').innerHTML=contactLinkedInAction[setlang];
+document.getElementById('skillsTitle').innerHTML=skillsTitle[setlang];
+document.getElementById('skillsSummaryTitle').innerHTML=skillsSummaryTitle[setlang];
+document.getElementById('skillsSummaryBody').innerHTML=skillsSummaryBody[setlang];
 
 document.getElementById('perf1').innerHTML=perf1[setlang];
 document.getElementById('perf2').innerHTML=perf2[setlang];
@@ -116,6 +146,9 @@ document.getElementById('perf8').innerHTML=perf8[setlang];
 
 document.getElementById('exp1').innerHTML=exp1[setlang];
 document.getElementById('exp2').innerHTML=exp2[setlang];
+document.getElementById('expOracleDate').innerHTML=expOracleDate[setlang];
+document.getElementById('expOracleTitle').innerHTML=expOracleTitle[setlang];
+document.getElementById('expOracleDescription').innerHTML=expOracleDescription[setlang];
 document.getElementById('exp3').innerHTML=exp3[setlang];
 document.getElementById('exp4').innerHTML=exp4[setlang];
 document.getElementById('exp5').innerHTML=exp5[setlang];
@@ -132,6 +165,9 @@ document.getElementById('exp15').innerHTML=exp15[setlang];
 document.getElementById('exp16').innerHTML=exp16[setlang];
 document.getElementById('exp17').innerHTML=exp17[setlang];
 document.getElementById('exp18').innerHTML=exp18[setlang];
+document.getElementById('expDtiFullDate').innerHTML=expDtiFullDate[setlang];
+document.getElementById('expDtiFullTitle').innerHTML=expDtiFullTitle[setlang];
+document.getElementById('expDtiFullDescription').innerHTML=expDtiFullDescription[setlang];
 
 document.getElementById('quo1').innerHTML=quo1[setlang];
 document.getElementById('quo2').innerHTML=quo2[setlang];
@@ -162,6 +198,18 @@ document.getElementById('data2').innerHTML=data2[setlang];
 document.getElementById('data3').innerHTML=data3[setlang];
 document.getElementById('data4').innerHTML=data4[setlang];
 document.getElementById('data5').innerHTML=data5[setlang];
+document.getElementById('contactTitle').innerHTML=contactTitle[setlang];
+document.getElementById('contactIntro').innerHTML=contactIntro[setlang];
+document.getElementById('contactAvailability').innerHTML=contactAvailability[setlang];
+document.getElementById('contactEmail').innerHTML=contactEmail[setlang];
+document.getElementById('contactWhatsapp').innerHTML=contactWhatsapp[setlang];
+document.getElementById('contactLinkedIn').innerHTML=contactLinkedIn[setlang];
+document.getElementById('contactEmailAction').innerHTML=contactEmailAction[setlang];
+document.getElementById('contactWhatsappAction').innerHTML=contactWhatsappAction[setlang];
+document.getElementById('contactLinkedInAction').innerHTML=contactLinkedInAction[setlang];
+document.getElementById('skillsTitle').innerHTML=skillsTitle[setlang];
+document.getElementById('skillsSummaryTitle').innerHTML=skillsSummaryTitle[setlang];
+document.getElementById('skillsSummaryBody').innerHTML=skillsSummaryBody[setlang];
 
 document.getElementById('perf1').innerHTML=perf1[setlang];
 document.getElementById('perf2').innerHTML=perf2[setlang];
@@ -174,6 +222,9 @@ document.getElementById('perf8').innerHTML=perf8[setlang];
 
 document.getElementById('exp1').innerHTML=exp1[setlang];
 document.getElementById('exp2').innerHTML=exp2[setlang];
+document.getElementById('expOracleDate').innerHTML=expOracleDate[setlang];
+document.getElementById('expOracleTitle').innerHTML=expOracleTitle[setlang];
+document.getElementById('expOracleDescription').innerHTML=expOracleDescription[setlang];
 document.getElementById('exp3').innerHTML=exp3[setlang];
 document.getElementById('exp4').innerHTML=exp4[setlang];
 document.getElementById('exp5').innerHTML=exp5[setlang];
@@ -190,6 +241,9 @@ document.getElementById('exp15').innerHTML=exp15[setlang];
 document.getElementById('exp16').innerHTML=exp16[setlang];
 document.getElementById('exp17').innerHTML=exp17[setlang];
 document.getElementById('exp18').innerHTML=exp18[setlang];
+document.getElementById('expDtiFullDate').innerHTML=expDtiFullDate[setlang];
+document.getElementById('expDtiFullTitle').innerHTML=expDtiFullTitle[setlang];
+document.getElementById('expDtiFullDescription').innerHTML=expDtiFullDescription[setlang];
 
 document.getElementById('quo1').innerHTML=quo1[setlang];
 document.getElementById('quo2').innerHTML=quo2[setlang];
